@@ -63,8 +63,8 @@ $\frac{𝑠 − 1}{𝑠 + 1}$, *bi* 𝑝𝑟𝑜𝑝𝑖𝑎
 •Si el numerador se hace 0 toda la función de transferencia se vuelve cero de ahí el nombre para estos valores de “s”
 •Estos valores pueden ser reales o complejos por lo tanto se pueden ubicar en un plano cartesiano
 
-## Hallar los zeros de una función de
-transferencia
+## Hallar los zeros de una función de transferencia
+
 $$𝐺(𝑠)=\frac{𝑌(𝑠)}{𝑈(𝑠)}=\frac{3𝑠 − 1}{𝑠2 + 3𝑠 + 2}=\frac{𝑁(𝑠)}{𝐷(𝑠)}$$
 
 $$ 𝑁(𝑠)=0, \qquad 3𝑠 − 1 = 0 $$
@@ -73,7 +73,36 @@ $$𝑠=\frac{1}{3}$$
 
 > "S" es un número complejo
 
-![GRÁFICA DE LOS ZEROS DE LA FUNCIÓN](plano cartesiano.png)
+![GRÁFICA DE LOS ZEROS DE LA FUNCIÓN](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/plano%20cartesiano.png))
 
 
 Figura 1. Gráfica de zeros de la función
+
+Ejemplo 
+
+• Hallar los zeros para la siguiente función de transferencia:
+
+$\frac{𝑠2+4𝑠+1}{𝑠4+3𝑠3+3𝑠2+𝑠+2}$
+
+$$N(s)=0, \qquad s^2+4s+1$$
+
+$$\frac{-4+\sqrt{16-4}}{2} \qquad \frac{-4-\sqrt{16-4}}{2}   $$
+$$\frac{-4+\sqrt{12}}{2} \qquad \frac{-4-\sqrt{12}}{2}   $$
+
+## Polos de una función de transferencia
+•Si se iguala D(s)a 0 se obtienen los valores de“s”que cumplen con la condición
+•Si el denominador se hace 0 toda la función de transferencia se vuelve infinito de ahí el nombre para estos valores de “s”
+•Estos valores pueden ser reales o complejos por lo tanto se pueden ubicar en un plano cartesiano
+
+
+$$𝐺(𝑠)=\frac{𝑌(𝑠)}{𝑈(𝑠)}=\frac{3𝑠 − 1}{𝑠2 + 3𝑠 + 2}=\frac{𝑁(𝑠)}{𝐷(𝑠)}$$
+>𝑠2 + 3𝑠 + 2   →   Polinomio Característico
+
+$$D(𝑠)= 0$$
+
+$$s2 + 3𝑠 + 2 = 0$$
+
+$$(𝑠 + 1) (𝑠 + 2) = 0$$
+
+$$𝑠 = −1$$
+$$𝑠 = −2$$
