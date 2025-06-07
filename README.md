@@ -73,4 +73,7 @@ $$𝑠=\frac{1}{3}$$
 
 > "S" es un número complejo
 
-![GRÁFICA DE LOS ZEROS DE LA FUNCIÓN]()
+![GRÁFICA DE LOS ZEROS DE LA FUNCIÓN](plano cartesiano.png)
+
+
+Figura 1. Gráfica de zeros de la función
