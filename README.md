@@ -73,5 +73,4 @@ $$𝑠=\frac{1}{3}$$
 
 > "S" es un número complejo
 
-graph TD
-        A(0,0) --> B(2,3);
+![GRÁFICA DE LOS ZEROS DE LA FUNCIÓN]()
