@@ -106,3 +106,27 @@ $$(𝑠 + 1) (𝑠 + 2) = 0$$
 
 $$𝑠 = −1$$
 $$𝑠 = −2$$
+![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/2.png)
+
+>Los polos pueden resultar siendo de 3 formas:
+
+>Polos complejos conjugados: estos se veran con un "efecto de espejo" en el eje horizontal, es decir, que un polo se encuentre en el cuadrante enfrentado verticalmente y el otro en el otro cuadrante compartiendo su coordenada abscisa(en el eje horizontal)
+
+>Polos reales diferentes: Estos se veran ubicados sobre el eje de las abscisas en 2 puntos diferentes
+
+>Polos iguales repetidos:  Estos se veran ubicados sobre el eje de las abscisas en 2 puntos iguales
+
+Ejemplo 
+
+• Hallar los zeros para la siguiente función de transferencia:
+
+$\frac{s+2}{(s+3)(s^2+0.5s+1)}$
+
+
+$$D(s)=0, \qquad s^2+0.5s+1$$
+
+$$\frac{-0.5+\sqrt{-4}}{2} \qquad \frac{-4-\sqrt{16-4}}{2}   $$
+$$\frac{-4+\sqrt{12}}{2} \qquad \frac{-4-\sqrt{12}}{2}   $$
+
+
+
