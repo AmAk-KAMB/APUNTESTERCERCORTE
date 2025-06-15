@@ -96,6 +96,7 @@ $$\frac{-4+\sqrt{12}}{2} \qquad \frac{-4-\sqrt{12}}{2}   $$
 
 
 $$𝐺(𝑠)=\frac{𝑌(𝑠)}{𝑈(𝑠)}=\frac{3𝑠 − 1}{𝑠2 + 3𝑠 + 2}=\frac{𝑁(𝑠)}{𝐷(𝑠)}$$
+
 >𝑠2 + 3𝑠 + 2   →   Polinomio Característico
 
 $$D(𝑠)= 0$$
@@ -109,44 +110,6 @@ $$𝑠 = −2$$
 
 
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/2.png)
-
-
-
-
-
-
-
-
-
-
-$$\begin{Bmatrix}
-A para & \\ t>t_0 
-0 para & \\  t<t_ 
-\end{Bmatrix}$$
-
-
-
-
-
-
-$ℒ{𝑢(𝑡)}=\frac{𝐴}{𝑠}$$
-
-
-
-
-𝑢 𝑡 = {
-𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
-0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0
-ℒ{𝑢 𝑡 } =
-𝐴
-𝑠
-
-𝑢 𝑡 = {
-𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
-0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0
-ℒ{𝑢 𝑡 } =
-𝐴
-𝑠
 
 
 >Los polos pueden resultar siendo de 3 formas:
@@ -177,30 +140,12 @@ $$s_1=1 \qquad s_2=\frac{-3}{2} \qquad  s=-3 $$
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/saaaaaa.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
 $$𝑢(𝑡)= 𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
 
 $$    0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0}
 
 
 $$ ℒ{𝑢(𝑡)} =\frac{𝐴}{𝑠} $$
-
-
-
-
-
-
-
 
 
 ##Grado de una función de transferencia
@@ -224,7 +169,7 @@ Teorema del valor final
 
 $$\lim_{𝑡→∞}  𝑓(𝑡)=\lim_{𝑠→0}𝑠𝐹(𝑠) $$
 
-Ejemplo
+💡Ejemplo
 
 
 
@@ -244,8 +189,7 @@ $$\lim_{𝑠→0}𝑠𝐹(𝑠)=\lim_{𝑠→0}𝑠 * \frac{4 ∗ 𝑈(𝑠)}{5�
 
 $$\lim_{𝑠→0}\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} = 4 $$
 
-
-
+![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/4.png)
 
 
 Entradas de prueba a un sistema
@@ -254,9 +198,10 @@ Respuesta de un sistema
 
 • Sería necesario modelar cada Sistema desde cero
 >Si se tuviera en cuenta las señales reales
+>Ruido, Diferentes rangos, Diferentes señales
+
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/5.png)
 
-Ruido, Diferentes rangos, Diferentes señales
 
 Posibles entradas de un sistema
 
@@ -270,6 +215,30 @@ Entrada Escalón
 •Es una entrada que considera un cambio de nivel repentino
 
 ![Curva del limite resultante](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/6.png)
+
+$$\begin{Bmatrix}
+A para & \\ t>t_0 
+0 para & \\  t<t_ 
+\end{Bmatrix}$$
+
+
+$ℒ{𝑢(𝑡)}=\frac{𝐴}{𝑠}$$
+
+𝑢 𝑡 = {
+𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
+0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0
+ℒ{𝑢 𝑡 } =
+𝐴
+𝑠
+
+𝑢 𝑡 = {
+𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
+0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0
+ℒ{𝑢 𝑡 } =
+𝐴
+𝑠
+
+
 
 
 Entrada Rampa
@@ -401,12 +370,30 @@ Sensores transmisores
 
 Modelos de otros procesos
 
-Ejemplo
+💡Ejemplo
 
 •Sea un tanque lleno con ocho litros de agua salada en el cual están disueltos dos kg de sal. Una solución de salmuera (agua salada) con tres kg de sal por litro entra al tanque a una velocidad de 4 l/min, mientras la mezcla bien agitada sale a la misma velocidad con la que entra.
 
 Sistema Térmico
 
-Ejemplo
+💡Ejemplo
 
 conclusiones 
+
+
+Álgebrade Bloques
+
+Definición
+
+•Una herramienta que puede ayudara en tender un poco la interacción entre varios sistemas son los diagramas de bloques
+•Primer sistema de control J. Watt
+•Para explicar su sistema empezó a
+desarrollar los diagramas de bloques
+
+Elementos de un diagrama de bloques
+
+•Bloque Funcional:es un símbolo para representar la operación matemática que sobre la señal de entrada hace el bloque para producir la salida
+
+Elementos de un diagrama de bloques
+
+•Flechas:Representa las señales dentro del proceso.Obsérveseque la señal sólo puede pasar en la dirección de las flechas.Portanto,un diagrama de bloques de un sistema de control muestra explícitamente una propiedad unilateral.Lapunta de flecha que señala el bloque indica la entrada, y la punta de flecha quesealeja de  l bloque representa la salida.Tales flechas se conocen como señales.
