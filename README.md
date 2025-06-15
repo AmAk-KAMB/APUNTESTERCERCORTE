@@ -136,8 +136,34 @@ $$s_1=\frac{-1+5}{4} \qquad s_2=\frac{-1-5}{4} \qquad  s=-3 $$
 $$s_1=\frac{4}{4} \qquad s_2=\frac{-6}{4} \qquad  s=-3 $$
 $$s_1=1 \qquad s_2=\frac{-3}{2} \qquad  s=-3 $$
 
+![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/saaaaaa.png)
 
 
 
-![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/2.png)
-$$s_1=1 \qquad s_2=\frac{-3}{2} \qquad  s=-3 $$
+
+$$𝐺(𝑠)=\frac{3𝑠 − 1}{𝑠2 + 3𝑠 + 2}$$
+
+
+
+
+$$\lim_{𝑡→∞}  𝑓(𝑡)=\lim_{𝑠→0}𝑠𝐹(𝑠) $$
+
+
+$$𝐺(𝑠)=\frac{𝑌(𝑠)}{𝑈(𝑠)}=\frac{4}{5𝑠 + 1}$$
+$$𝑌(𝑠)=\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1}$$
+
+
+
+
+$$𝑌(𝑠)=\frac{\frac{4}{𝑠}}{5𝑠 + 1}$$
+
+
+
+
+
+$$\lim_{𝑠→0}𝑠𝐹(𝑠)=\lim_{𝑠→0}𝑠 * \frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} $$
+
+
+
+$$\lim_{𝑠→0}\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} = 4 $$
+
