@@ -218,7 +218,4 @@ $$\lim_{𝑠→0}\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} = 4 $$
 $$ ℒ{𝑢(𝑡)} =\frac{𝐴}{𝑠} $$
 
 
-
-
-
-\\
+![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/5.png)
