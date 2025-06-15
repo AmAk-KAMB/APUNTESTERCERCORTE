@@ -179,24 +179,63 @@ $$s_1=1 \qquad s_2=\frac{-3}{2} \qquad  s=-3 $$
 
 
 
+
+
+
+
+
+
+
+
+
+$$𝑢(𝑡)= 𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
+
+$$    0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0}
+
+
+$$ ℒ{𝑢(𝑡)} =\frac{𝐴}{𝑠} $$
+
+
+
+
+
+
+
+
+
+##Grado de una función de transferencia
+
+•Otra forma de clasificarlas funciones de transferencia es por su orden o grado
+•Esto lo define el polinomio característisco
+•Por ejemplo:
+
 $$𝐺(𝑠)=\frac{3𝑠 − 1}{𝑠2 + 3𝑠 + 2}$$
 
+>>Polinomio Característico de Segundo orden	
 
+•Quiere decir que la función de transferencia es de segundo orden
 
+Teorema del valor final
+
+• El error en estado estacionario corresponde al error
+  medido en 𝑡 = ∞
+• Es posible aprovechar el teorema del valor final para
+  saber el valor final del error
 
 $$\lim_{𝑡→∞}  𝑓(𝑡)=\lim_{𝑠→0}𝑠𝐹(𝑠) $$
+
+Ejemplo
+
 
 
 $$𝐺(𝑠)=\frac{𝑌(𝑠)}{𝑈(𝑠)}=\frac{4}{5𝑠 + 1}$$
 $$𝑌(𝑠)=\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1}$$
 
-
-
+•Si la entrada es un escalón:
 
 $$𝑌(𝑠)=\frac{\frac{4}{𝑠}}{5𝑠 + 1}$$
 
-
-
+El valor final de Y(s) se puede calcular aplicando el teorema del valor final:
 
 
 $$\lim_{𝑠→0}𝑠𝐹(𝑠)=\lim_{𝑠→0}𝑠 * \frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} $$
@@ -208,14 +247,166 @@ $$\lim_{𝑠→0}\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} = 4 $$
 
 
 
-![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/4.png)
 
->>𝑢(𝑡)= 𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
->>
->>      0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0}
+Entradas de prueba a un sistema
 
+Respuesta de un sistema
 
-$$ ℒ{𝑢(𝑡)} =\frac{𝐴}{𝑠} $$
-
-
+• Sería necesario modelar cada Sistema desde cero
+>Si se tuviera en cuenta las señales reales
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/5.png)
+
+Ruido, Diferentes rangos, Diferentes señales
+
+Posibles entradas de un sistema
+
+•Si la solución de una ecuación diferencial depende de la entrada, la respuesta de un Sistema También
+•Es muy difícil conocer la señales que están ocurriendo en un Sistema yaque depende de muchos factores como ruido, tipode señales, ambiente, entre otras
+•Además el Sistema de control debe diseñarse para que funcione ante cualquier señal
+•En control se utilizan diferentes tipos de señales de prueba para evaluar el desempeñode un sistema
+
+Entrada Escalón
+
+•Es una entrada que considera un cambio de nivel repentino
+
+![Curva del limite resultante](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/6.png)
+
+
+Entrada Rampa
+
+•Es una entrada que varíaenel tiempode forma lineal
+
+Entrada parábola
+
+•Es una entrada que considera una variación no lineal en el tiempo lo cual permite evaluar diferentes condiciones de inicio y final
+
+Actividad
+
+•Calcule el valor final para las 3 entradas de prueba
+
+Actividad
+
+• Para la ecuación diferencial 𝑦ഺ + 5𝑦ሷ + 13,5𝑦ሶ + 3,75𝑦 =
+ 7,5𝑢ሶ + 3,75𝑢 obtenga:
+• Función de transferencia
+• Zeros
+• Polos
+• Valor final frente a un escalón unitario y una rampa de
+ pendiente 5
+
+Resumen
+
+•Una representación de los sistemas dinámicos es la función de transferencia
+•La función de transferencia contiene tanto la respuesta transitoria como la respuesta estacionaria del sistema
+•Se asumen todas las condiciones iniciales del sistema en cero(0)
+•Al igualar los polinomios del numerador o denominador a cero se obtienen la ubicación de los polos y los zeros respectivamente
+
+Preguntas…?
+
+Modelamiento de sistemas con diagramas de bloques
+
+Modelosde sistemascomplejos
+
+•Se podrían modelar sistemas comoun todo hallando las funciones de transferencia de cadacomponente
+•Otro enfoque es utilizar modelos y adesarrollados ampliamente para construir modelos más complejos
+•Aún usando este enfoque hay muchos tipos de procesos y dispositivos
+
+Solenoide
+
+•Un solenoide está formado por un circuito eléctrico, una coplamiento electromecánico (transductor) y un sistema mecánico de traslación
+
+Modelodel circuitoelectromagnético
+
+Solenoide
+
+•El electroimán produce una fuerza mecánica proporcional a la corriente en el embobinado
+
+Acople en tre la parte electromagnética y la parte mecánica
+
+Solenoide
+
+•El electroimána trae una masa acoplada por medio de un resorte y se considera el mortiguamiento dado por la envolvente de la bobina
+
+Sistema mecánico
+
+Representación en bloques
+
+Motor DC
+
+Motor DC (Corriente de campo)
+
+•Circuito electromagnético:
+
+Motor DC (Corriente de campo)
+• El flujo Φ en el entrehierro es proporcional a la corriente de
+ campo 
+• El torque desarrollado es proporcional al Φ y a la corriente de
+ armadura
+• El torque desarrollado es proporcional al Φ y a la corriente de
+ armadura
+
+Motor DC (Corriente de campo)
+•El torque aplicado (partemecánica)a la carga se comporta como un Sistema rotacional clásico que considera la inercia y la fricción mecánica
+
+Motor DC (Corriente de campo)
+
+•La conexión de los modelos se realiza de la siguiente manera:
+
+Motor DC (Corriente de armadura)
+
+•La corriente de campo se asume constate por lo tanto el Torque es:
+•La corriente de armadura se relaciona con el voltaje aplicado a la armadura por:
+
+Motor DC (Corrientede armadura)
+
+•El voltaje inducido en la armadura es proporcional a la velocidad angular del eje:
+•Combinando estas ecuaciones se obtiene:
+
+Motor DC (Corriente de armadura)
+
+•La parte mecánica se comporta de la misma manera que en el caso anterior:
+
+Diagram de bloques resultante
+
+ElementosTransmisoresde energía
+
+Engranajes y Poleas
+
+•Son dispositivos mecánicos que transmiten la energía desde una parte del sistema aotra
+
+Engranajes y Poleas
+
+• J y 𝐾𝑚 Cambian si se tiene en cuenta el efecto de los
+engranajes o poleas
+
+Diagrama de bloques
+
+Transmisión rotacional a lineal
+
+Palancas
+
+Potenciómetro
+
+Potenciómetro de rotación
+
+Potenciómetro de translación
+
+Tacómetros
+
+•Son dispositivos que convierten la velocidad angular a voltaje.
+
+Sensores transmisores
+•Si son lineales:
+•Si no son lineales:
+
+Modelos de otros procesos
+
+Ejemplo
+
+•Sea un tanque lleno con ocho litros de agua salada en el cual están disueltos dos kg de sal. Una solución de salmuera (agua salada) con tres kg de sal por litro entra al tanque a una velocidad de 4 l/min, mientras la mezcla bien agitada sale a la misma velocidad con la que entra.
+
+Sistema Térmico
+
+Ejemplo
+
+conclusiones 
