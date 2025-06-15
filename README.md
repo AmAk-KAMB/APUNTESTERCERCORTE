@@ -208,10 +208,17 @@ $$\lim_{𝑠→0}\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} = 4 $$
 
 
 
-
-
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/4.png)
 
+>>𝑢(𝑡)= 𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
+>>
+>>      0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0}
+
+
+$$ ℒ{𝑢(𝑡)} =\frac{𝐴}{𝑠} $$
 
 
 
+
+
+\\
