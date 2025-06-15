@@ -106,7 +106,10 @@ $$(𝑠 + 1) (𝑠 + 2) = 0$$
 
 $$𝑠 = −1$$
 $$𝑠 = −2$$
+
+
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/2.png)
+
 
 >Los polos pueden resultar siendo de 3 formas:
 
@@ -118,15 +121,23 @@ $$𝑠 = −2$$
 
 Ejemplo 
 
-• Hallar los zeros para la siguiente función de transferencia:
+• Hallar los polos para la siguiente función de transferencia:
 
 $\frac{s+2}{(s+3)(s^2+0.5s+1)}$
 
 
 $$D(s)=0, \qquad s^2+0.5s+1$$
 
-$$\frac{-0.5+\sqrt{-4}}{2} \qquad \frac{-4-\sqrt{16-4}}{2}   $$
-$$\frac{-4+\sqrt{12}}{2} \qquad \frac{-4-\sqrt{12}}{2}   $$
+$$s_1=\frac{-1+\sqrt{1^(2)+4(2)(2)}}{2(2)} \qquad s_2=\frac{-1-\sqrt{1^(2)+4(2)(2)}}{2(2)} \qquad  (s+3)=0   $$
+$$s_1=\frac{-1+\sqrt{1+16}}{4} \qquad s_2=\frac{-1-\sqrt{1+16}}{4} \qquad  s=-3 $$
+$$s_1=\frac{-1+\sqrt{1}+\sqrt{16}}{4} \qquad s_2=\frac{-1-\sqrt{1}+\sqrt{16}}{4} \qquad  s=-3 $$
+$$s_1=\frac{-1+1+4}{4} \qquad s_2=\frac{-1-1+4}{4} \qquad  s=-3 $$
+$$s_1=\frac{-1+5}{4} \qquad s_2=\frac{-1-5}{4} \qquad  s=-3 $$
+$$s_1=\frac{4}{4} \qquad s_2=\frac{-6}{4} \qquad  s=-3 $$
+$$s_1=1 \qquad s_2=\frac{-3}{2} \qquad  s=-3 $$
 
 
 
+
+![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/2.png)
+$$s_1=1 \qquad s_2=\frac{-3}{2} \qquad  s=-3 $$
