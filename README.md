@@ -111,6 +111,44 @@ $$𝑠 = −2$$
 ![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/2.png)
 
 
+
+
+
+
+
+
+
+
+$$\begin{Bmatrix}
+A para & \\ t>t_0 
+0 para & \\  t<t_ 
+\end{Bmatrix}$$
+
+
+
+
+
+
+$ℒ{𝑢(𝑡)}=\frac{𝐴}{𝑠}$$
+
+
+
+
+𝑢 𝑡 = {
+𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
+0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0
+ℒ{𝑢 𝑡 } =
+𝐴
+𝑠
+
+𝑢 𝑡 = {
+𝐴 𝑝𝑎𝑟𝑎 𝑡 > 𝑡0
+0 𝑝𝑎𝑟𝑎 𝑡 < 𝑡0
+ℒ{𝑢 𝑡 } =
+𝐴
+𝑠
+
+
 >Los polos pueden resultar siendo de 3 formas:
 
 >Polos complejos conjugados: estos se veran con un "efecto de espejo" en el eje horizontal, es decir, que un polo se encuentre en el cuadrante enfrentado verticalmente y el otro en el otro cuadrante compartiendo su coordenada abscisa(en el eje horizontal)
@@ -166,4 +204,14 @@ $$\lim_{𝑠→0}𝑠𝐹(𝑠)=\lim_{𝑠→0}𝑠 * \frac{4 ∗ 𝑈(𝑠)}{5�
 
 
 $$\lim_{𝑠→0}\frac{4 ∗ 𝑈(𝑠)}{5𝑠 + 1} = 4 $$
+
+
+
+
+
+
+![Representación gráfica de polos](https://github.com/AmAk-KAMB/APUNTESTERCERCORTE/blob/main/4.png)
+
+
+
 
